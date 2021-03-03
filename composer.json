@@ -8,7 +8,7 @@
             "email": "andreas.linden@coxautoinc.com"
         }
     ],
-    "require-dev": {
+    "require": {
         "friendsofphp/php-cs-fixer": "^2.18"
     },
     "autoload": {
