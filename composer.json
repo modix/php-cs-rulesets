@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Modix\\": "src/"
+            "Modix\\RuleSet\\": "src/RuleSet/"
         }
     }
 }
