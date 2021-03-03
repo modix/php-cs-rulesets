@@ -1,0 +1,19 @@
+{
+    "name": "modix/php-ruleset",
+    "description": "PHP-CS-Fixer rulesets",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andreas Linden",
+            "email": "andreas.linden@coxautoinc.com"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modix\\": "src/"
+        }
+    }
+}
