@@ -2,24 +2,9 @@
 
 ## Installation
 
-Add the repository to your `composer.json`
-
-```json5
-{
-  // ...
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:Modix/php-cs-rulesets.git"
-    }
-  ],
-  // ...
-}
-```
-
 Install the rulesets with composer
 
-`composer require modix/php-cs-rulesets:dev-master --dev`
+`composer require modix/php-cs-rulesets --dev`
 
 ## Configuration
 
