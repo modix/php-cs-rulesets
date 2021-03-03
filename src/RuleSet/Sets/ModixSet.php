@@ -4,9 +4,6 @@ namespace Modix\RuleSet\Sets;
 
 use PhpCsFixer\RuleSet\AbstractRuleSetDescription;
 
-/**
- * @internal
- */
 final class ModixSet extends AbstractRuleSetDescription
 {
     public function getRules()
@@ -146,6 +143,6 @@ final class ModixSet extends AbstractRuleSetDescription
 
     public function getDescription()
     {
-        return 'Rules that follow Modix standard.';
+        return 'Full rules that follow Modix standard for new projects.';
     }
 }

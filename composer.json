@@ -1,6 +1,6 @@
 {
-    "name": "modix/php-ruleset",
-    "description": "PHP-CS-Fixer rulesets",
+    "name": "modix/php-cs-rulesets",
+    "description": "Modix rulesets for PHP-CS-Fixer",
     "type": "library",
     "authors": [
         {
