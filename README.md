@@ -19,7 +19,7 @@ Add the repository to your `composer.json`
 
 Install the rulesets with composer
 
-`composer require modix/php-cs-rulesets --dev`
+`composer require modix/php-cs-rulesets:dev-master --dev`
 
 ## Configuration
 
