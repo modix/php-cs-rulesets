@@ -38,7 +38,7 @@ $finder = PhpCsFixer\Finder::create()
 
 $config = new PhpCsFixer\Config();
 $config
-    ->setRiskyAllowed(true)
+    ->setRiskyAllowed(false)
     ->setRules($modixSet->getRules())
     ->setFinder($finder)
 ;
