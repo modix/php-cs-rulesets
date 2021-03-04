@@ -6,7 +6,9 @@ use PhpCsFixer\RuleSet\AbstractRuleSetDescription;
 
 final class ModixLegacySet extends AbstractRuleSetDescription
 {
-    return [
+    public function getRules()
+    {
+        return [
             // https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/2.18/src/RuleSet/Sets/PSR1Set.php
             '@PSR1' => true,
             /**
@@ -164,6 +166,7 @@ final class ModixLegacySet extends AbstractRuleSetDescription
             //        'phpdoc_order' => true,
             //        'phpdoc_types_order' => true,
         ];
+    }
 
     public function getDescription()
     {
