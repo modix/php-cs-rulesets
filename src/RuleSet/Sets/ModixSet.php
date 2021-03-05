@@ -1,6 +1,6 @@
 <?php
 
-namespace Modix\RuleSet\Sets;
+namespace Modix\PhpCsRulesets\RuleSet\Sets;
 
 use PhpCsFixer\RuleSet\AbstractRuleSetDescription;
 

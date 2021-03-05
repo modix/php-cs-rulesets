@@ -21,9 +21,15 @@ Install the rulesets with composer
 
 `composer require modix/php-cs-rulesets --dev`
 
+If you want to use GrumPHP, execute the following two commands.
+
+`composer require phpro/grumphp-shim --no-plugins` to install grump without creating a gumphp.yml file
+
+`composer modix-cs-configs` to add default .php_cs and grumphp.yml configuration files.
+
 ## Configuration
 
-create a `.php_cs` file in your project root and configure the paths for the Finder.
+create a `.php_cs` file in your project root and configure the paths for the Finder and change the ruleset if required.
 
 ```php
 <?php

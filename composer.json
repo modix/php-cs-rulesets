@@ -8,12 +8,22 @@
             "email": "andreas.linden@coxautoinc.com"
         }
     ],
+    "suggest": {
+        "phpro/grumphp-shim": "To use pre commit hooks blabla"
+    },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.18"
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "composer/composer": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "Modix\\RuleSet\\": "src/RuleSet/"
+            "Modix\\PhpCsRulesets\\": "src/"
         }
+    },
+    "scripts": {
+        "modix-cs-configs": [
+            "Modix\\PhpCsRulesets\\Composer\\GrumpConfig::create",
+            "Modix\\PhpCsRulesets\\Composer\\PhpCsConfig::create"
+        ]
     }
 }
