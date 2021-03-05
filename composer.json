@@ -8,12 +8,8 @@
             "email": "andreas.linden@coxautoinc.com"
         }
     ],
-    "suggest": {
-        "phpro/grumphp-shim": "To use pre commit hooks blabla"
-    },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.18",
-        "composer/composer": "^2.0"
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.18"
     },
     "autoload": {
         "psr-4": {
