@@ -8,9 +8,9 @@ Install the rulesets with composer
 
 If you want to use GrumPHP, execute the following two commands.
 
-`composer require phpro/grumphp-shim --dev --no-plugins` to install grump without creating a gumphp.yml file
-
 `COMPOSER=vendor/modix/php-cs-rulesets/composer.json composer modix-cs-configs` to add default .php_cs and grumphp.yml configuration files.
+
+`composer require phpro/grumphp-shim --dev` to install grump and register the pre-commit-hook.
 
 ## Configuration
 
