@@ -2,6 +2,7 @@
     "name": "modix/php-cs-rulesets",
     "description": "Modix rulesets for PHP-CS-Fixer",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Andreas Linden",
