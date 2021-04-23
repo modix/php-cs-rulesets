@@ -52,6 +52,7 @@ final class ModixSet extends AbstractRuleSetDescription
             'native_function_type_declaration_casing' => true,
             'no_alias_language_construct_call' => true,
             'no_alternative_syntax' => true,
+            'no_binary_string' => true,
             'no_blank_lines_after_phpdoc' => true,
             'no_empty_comment' => true,
             'no_empty_phpdoc' => true,
@@ -98,7 +99,7 @@ final class ModixSet extends AbstractRuleSetDescription
             'ordered_imports' => true,
             'php_unit_fqcn_annotation' => true,
             'php_unit_method_casing' => true,
-
+            'phpdoc_align' => 'left',
             'phpdoc_annotation_without_dot' => true,
             'phpdoc_indent' => true,
             'phpdoc_inline_tag_normalizer' => true,
@@ -110,7 +111,8 @@ final class ModixSet extends AbstractRuleSetDescription
             'phpdoc_separation' => true,
             'phpdoc_single_line_var_spacing' => true,
             'phpdoc_summary' => true,
-
+            'phpdoc_tag_type' => true,
+            'phpdoc_to_comment' => true,
             'phpdoc_trim' => true,
             'phpdoc_trim_consecutive_blank_line_separation' => true,
             'phpdoc_types' => true,
@@ -130,6 +132,7 @@ final class ModixSet extends AbstractRuleSetDescription
             'space_after_semicolon' => [
                 'remove_in_empty_for_expressions' => true,
             ],
+            'standardize_increment' => true,
             'standardize_not_equals' => true,
             'switch_continue_to_break' => true,
             'trailing_comma_in_multiline_array' => true,
@@ -137,7 +140,6 @@ final class ModixSet extends AbstractRuleSetDescription
             'unary_operator_spaces' => true,
             'visibility_required' => true,
             'whitespace_after_comma_in_array' => true,
-            'yoda_style' => true,
         ];
     }
 
