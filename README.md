@@ -20,7 +20,7 @@ create a `.php_cs` file in your project root and configure the paths for the Fin
 <?php
 
 require __DIR__.'/vendor/autoload.php';
-$modixSet = new \Modix\RuleSet\Sets\ModixSet();
+$modixSet = new \Modix\PhpCsRulesets\RuleSet\Sets\ModixSet();
 
 $finder = PhpCsFixer\Finder::create()
     ->in(__DIR__.'/src')
