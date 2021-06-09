@@ -10,11 +10,13 @@ If you want to use GrumPHP, execute the following two commands.
 
 `composer require phpro/grumphp-shim --no-plugins` to install grump without creating a gumphp.yml file
 
-`COMPOSER=vendor/modix/php-cs-rulesets/composer.json composer modix-cs-configs` to add default .php_cs and grumphp.yml configuration files.
-
 ## Configuration
 
-create a `.php_cs` file in your project root and configure the paths for the Finder and change the ruleset if required.
+create a `.php-cs-fixer.php` file in your project root by running the following command:
+
+`COMPOSER=vendor/modix/php-cs-rulesets/composer.json composer modix-cs-configs`
+
+Alternatively you can create file yourself.
 
 ```php
 <?php

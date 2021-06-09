@@ -9,8 +9,8 @@
         }
     ],
     "require": {
-        "friendsofphp/php-cs-fixer": "^2.18",
-        "composer/composer": "^2.0.13"
+        "friendsofphp/php-cs-fixer": "^2.19",
+        "composer/composer": "^2.1"
     },
     "autoload": {
         "psr-4": {
