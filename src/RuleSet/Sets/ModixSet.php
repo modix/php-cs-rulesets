@@ -6,7 +6,7 @@ use PhpCsFixer\RuleSet\AbstractRuleSetDescription;
 
 final class ModixSet extends AbstractRuleSetDescription
 {
-    public function getRules()
+    public function getRules(): array
     {
         return [
             '@PSR12' => true,
@@ -146,7 +146,7 @@ final class ModixSet extends AbstractRuleSetDescription
         ];
     }
 
-    public function getDescription()
+    public function getDescription(): string
     {
         return 'Full rules that follow Modix standard for new projects.';
     }
