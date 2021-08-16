@@ -4,17 +4,17 @@
 
 Install the rulesets with composer
 
-`composer require modix/php-cs-rulesets --dev`
+`composer require modix/php-cs-rulesets --no-plugins --dev`
 
-If you want to use GrumPHP, execute the following two commands.
+If you want to use GrumPHP, execute the following command.
 
-`composer require phpro/grumphp-shim --no-plugins` to install grump without creating a gumphp.yml file
+`composer require phpro/grumphp-shim --no-plugins --dev` to install grump.
 
 ## Configuration
 
-create a `.php-cs-fixer.php` file in your project root by running the following command:
+create a default `.php-cs-fixer.php` file in your project root by running the following command.
 
-`COMPOSER=vendor/modix/php-cs-rulesets/composer.json composer modix-cs-configs`
+`cp ./vendor/modix/php-cs-rulesets/src/Resources/.php-cs-fixer.php.dist ./.php-cs-fixer.php`
 
 Alternatively you can create file yourself.
 
@@ -38,3 +38,5 @@ $config
 
 return $config;
 ```
+
+Adapt the finder to your needs and let your IDE to use this configuration.
