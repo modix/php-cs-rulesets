@@ -6,7 +6,7 @@ use PhpCsFixer\RuleSet\AbstractRuleSetDescription;
 
 final class ModixLegacySet extends AbstractRuleSetDescription
 {
-    public function getRules()
+    public function getRules(): array
     {
         return [
             // https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/2.18/src/RuleSet/Sets/PSR1Set.php
@@ -168,7 +168,7 @@ final class ModixLegacySet extends AbstractRuleSetDescription
         ];
     }
 
-    public function getDescription()
+    public function getDescription(): string
     {
         return 'Reduced rules that follow Modix standard for legacy projects.';
     }
