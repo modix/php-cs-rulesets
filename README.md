@@ -30,6 +30,7 @@ $finder = PhpCsFixer\Finder::create()
 ;
 
 $config = new PhpCsFixer\Config();
+$config->setCacheFile(dirname(__FILE__) . '/.php-cs-fixer.cache');
 $config
     ->setRiskyAllowed(false)
     ->setRules($modixSet->getRules())
