@@ -27,6 +27,7 @@ final class ModixSet extends AbstractRuleSetDescription
             'class_attributes_separation' => [
                 'elements' => [
                     'method' => 'one',
+                    'trait_import' => 'none',
                 ],
             ],
             'class_definition' => [
@@ -69,7 +70,6 @@ final class ModixSet extends AbstractRuleSetDescription
                     'switch',
                     'throw',
                     'use',
-                    'use_trait',
                 ],
             ],
             'no_leading_namespace_whitespace' => true,
